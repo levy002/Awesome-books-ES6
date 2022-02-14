@@ -1,7 +1,7 @@
 # Awesome-Books
 <img src="images\ES6_shoot1.png" alt="Book List">
 <img src="images\ES6_shoot2.png" alt="Book Form">
-<img src="images\ES6_shoot3" alt="Contact">
+<img src="images\ES6_shoot3.png" alt="Contact">
 
 ## Built With
 
@@ -21,10 +21,10 @@ A Web Browser (preferably Google Chrome)
 
 ### Setup
 
-Clone the GitHub Repository
+- Clone the GitHub Repository
+- Install npm package manager
 
 ### Usage
-Install npm package manager
 Open index.html in Chrome
 
 ## Authors
