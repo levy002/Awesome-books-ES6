@@ -4,7 +4,7 @@ const books = new AwesomeBooks();
 const booksSection = document.getElementById('booksSection');
 const form = document.getElementById('bookForm');
 
-function createBookElements() {
+const createBookElements = () => {
   booksSection.replaceChildren();
   if (books.books.length > 0) {
     const booksList = document.createElement('ul');
@@ -39,24 +39,24 @@ function createBookElements() {
     noBooks.appendChild(noBooksText);
     booksSection.appendChild(noBooks);
   }
-}
+};
 
-function getAddedBook() {
+const getAddedBook = () => {
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
   books.addBook(title, author);
   createBookElements();
   form.reset();
-}
+};
 
-function initStorage() {
+const initStorage = () => {
   if (localStorage.getItem('books')) {
     books.getStoredBooks();
     createBookElements();
   } else {
     createBookElements();
   }
-}
+};
 
 export {
   initStorage, getAddedBook, booksSection, form,

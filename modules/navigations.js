@@ -4,7 +4,7 @@ const listTag = document.getElementById('list');
 const newTag = document.getElementById('new');
 const contactTag = document.getElementById('contact_section');
 
-function deactivateActivity(id) {
+const deactivateActivity = (id) => {
   const menus = [listTag, newTag, contactTag];
   menus.map((m) => {
     if (m.id !== id) {
@@ -12,9 +12,9 @@ function deactivateActivity(id) {
     }
     return m;
   });
-}
+};
 
-function showAndHide(id) {
+const showAndHide = (id) => {
   const formSection = document.getElementById('form_section');
   const contactSection = document.getElementById('contact');
   const sections = [booksSection, formSection, contactSection];
@@ -30,9 +30,9 @@ function showAndHide(id) {
     }
     return s;
   });
-}
+};
 
-function updateView(id) {
+const updateView = (id) => {
   if (id === listTag.id) {
     if (!listTag.classList.contains('active_menu')) {
       listTag.classList.toggle('active_menu');
@@ -52,7 +52,7 @@ function updateView(id) {
     deactivateActivity(id);
     showAndHide('contact');
   }
-}
+};
 
 export {
   updateView, listTag, newTag, contactTag,
