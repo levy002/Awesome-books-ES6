@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+<script defer src="main.js"></script></head>
+<body>
+    <main class="vh-100 d-flex flex-column justify-content-between">
+    <header class="d-flex flex-column position-fixed w-100 bg-white bg-opacity-50">
+        <nav id="nav_bar" class="d-flex flex-row justify-content-between p-1 text-white">
+            <h3 class="ms-5 ">
+                Awesome Books
+            </h3>
+            <ul class="me-5 list-unstyled d-flex gap-5">
+                <li class="fs-4">
+                    <a href="#list" id="list" class="active_menu text-decoration-none">Books Collection</a>
+                </li>
+                <li class="fs-4">
+                    <a href="#new" id="new" class="text-decoration-none">Add new Book</a>
+                </li>
+                <li class="fs-4">
+                    <a href="#contact" id="contact_section" class="text-decoration-none">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <p id="time" class="me-5 fs-5 position-absolute text-white top-0 end-0"></p> 
+    </header>
+
+    <section id="booksSection" class="vh-100 w-100 align-items-center d-flex"></section>
+
+   <div  class="disappear vh-100 justify-content-center w-100" id="form_section">
+    <section  class="d-flex flex-column h-100 w-100"> 
+        <h3 class="text-center fs-1 text-white d-flex align-items-end justify-content-center">Add Book</h3>
+        <form action="#" id="bookForm" class="w-50 mx-auto d-flex flex-column gap-2 align-items-start justify-content-start mt-5">
+            <label for="title" class="d-flex w-100" >
+                <input type="text" placeholder="Title" id="title" required class="p-3 outline-none w-100 rounded border border-white opacity-75">
+            </label>
+            <label for="author" class="d-flex w-100">
+                <input type="text" placeholder="Author" id="author" required class="p-3 w-100 rounded border border-white opacity-75">
+            </label>
+            <button type="submit" id="add-book" class="mt-3 align-self-center px-5 py-2 rounded-pill outline-none border border-white bg-white">Add</button>
+        </form>
+    </section>
+</div>
+
+    <section id="contact" class="disappear vh-100 w-100">
+       <div class="w-50 m-auto h-50 d-flex flex-column justify-content-center bg-secondary bg-opacity-50 p-3"> 
+		<h3 class="fs-1 text-center mb-5 text-white">Contact information</h3>
+
+		<p class="fs-5 text-center text-white">
+			Do you have any questions or you just want to say "Hello"?
+		</p>
+		<p class="text-center fs-4 text-white">You can reach out to us on:</p>
+		<ul class=" fs-5 list-unstyled text-white text-center">
+			<li>
+				<a href="mailto:levy.ukwi002@gmail.com">e-mail</a>
+			</li>
+			<li>
+			   <a href="http://https://www.linkedin.com/in/levy-ukwishaka-405391223/">LinkedIn</a>
+			</li>
+            <li>
+                <a href="https://github.com/levy002">Github</a>
+            </li>
+			<li class="mt-3">
+				Kigali, Rwanda
+			</li>
+		</ul>
+        
+      </div>
+	 </section>
+
+	 <footer class="p-2 text-center bg-white bg-opacity-25 fixed-bottom">
+		 <strong class="fs-4 text-white">
+			 Copyright &#169; 2022
+		 </strong>
+	 </footer>
+    </main>
+</body>
+</html>
