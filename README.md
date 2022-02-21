@@ -1,13 +1,14 @@
 # Awesome-Books
-<img src="images\ES6_shoot1.png" alt="Book List">
-<img src="images\ES6_shoot2.png" alt="Book Form">
-<img src="images\ES6_shoot3.png" alt="Contact">
+<img src="./src/images/collection.png" alt="Book List">
+<img src="./src/images/Add.png" alt="Book Form">
+<img src="./src/images/contact.png" alt="Contact">
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+- Webpack
 
 ## Live Demo
 
@@ -22,10 +23,13 @@ A Web Browser (preferably Google Chrome)
 ### Setup
 
 - Clone the GitHub Repository
-- Install npm package manager
+- run this commands in your terminal:
+     - `npm install`
+     - `npm run build`
+     - `npm start`
 
 ### Usage
-Open index.html in Chrome
+after running `npm start` the website will be opened automatically on your default browser.
 
 ## Authors
 
@@ -33,6 +37,7 @@ Open index.html in Chrome
 
 - GitHub: [Levy Ukwishaka](https://github.com/levy002)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/levy-ukwishaka-405391223/)
+- Twitter: [Twitter](https://twitter.com/levy_ukwishaka)
 
 ## 🤝 Contributing
 
@@ -53,5 +58,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
