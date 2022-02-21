@@ -1,0 +1,111 @@
+
+#time {
+  margin: 61px;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #17cff0;
+}
+
+#booksSection {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px;
+}
+
+.books-list {
+  background-color: #fff;
+  border-radius: 10px;
+  opacity: 0.6;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+#removeBtn {
+  border: 1px solid grey;
+  line-height: 20px;
+  border-radius: 10px;
+  color: #000;
+}
+
+#removeBtn:hover {
+  background-color: #00d9ff;
+  border-color: #00d9ff;
+}
+
+#booksSection li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  color: #000;
+}
+
+#form_section section {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#form_section h3 {
+  flex-basis: 35%;
+  justify-self: flex-end;
+}
+
+form > *:hover {
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+form button {
+  opacity: 0.8;
+}
+
+form button:hover {
+  background-color: #fff;
+  opacity: 1;
+}
+
+input {
+  outline: none;
+}
+
+#contact {
+  background-image: url(./images/background.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+#contact div {
+  border-radius: 10px;
+}
+
+#contact a {
+  color: #00d9ff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.active_menu {
+  color: #17cff0;
+}
+
+.disappear {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
