@@ -3,6 +3,7 @@ import {
   updateView, listTag, newTag, contactTag,
 } from './modules/navigations.js';
 import displayDate from './modules/time.js';
+import './src/styles.css';
 
 initStorage();
 form.addEventListener('submit', getAddedBook);
