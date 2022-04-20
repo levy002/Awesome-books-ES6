@@ -1,6 +1,6 @@
 # Awesome-Books
-<img src="./images/screenShoot.png" alt="Book Form">
-<img src="./images/screenShoot1.png" alt="Contact">
+<img src="./images/screenShoot.png">
+<img src="./images/screenShoot1.png">
 
 ## Built With
 
