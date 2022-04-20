@@ -11,6 +11,9 @@
 - JavaScript
 - Webpack
 
+## Live Demo
+Visit live demo [here](https://awesome-books-202.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
