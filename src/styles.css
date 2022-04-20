@@ -12,7 +12,7 @@ nav a:hover {
 }
 
 #booksSection {
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/m1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 100px;
@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 #form_section section {
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/m1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -80,8 +80,8 @@ input {
 }
 
 #contact {
-  background-image: url(./images/background.jpg);
-  background-repeat: repeat;
+  background-image: url(./images/m1.png);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
