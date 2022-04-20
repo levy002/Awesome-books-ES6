@@ -1,6 +1,8 @@
 # Awesome-Books
-<img src="./images/screenShoot.png">
-<img src="./images/screenShoot1.png">
+<div>
+<img width="48%" src="./images/screenShoot.png">
+<img width="48%" src="./images/screenShoot1.png">
+</div>
 
 ## Built With
 
