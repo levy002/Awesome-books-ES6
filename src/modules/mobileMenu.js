@@ -23,6 +23,11 @@ const closeMenu = () => {
   navLinksContainer.className = 'me-5 list-unstyled d-md-flex gap-5 d-none justify-content-center m-0';
   bookSection.classList.remove('d-none');
   form.classList.remove('d-none');
+  links.forEach((l) => {
+    if (l.id === 'close-menu-container') {
+      l.className = 'd-none';
+    }
+  });
 };
 
 const mobileMenu = () => {
