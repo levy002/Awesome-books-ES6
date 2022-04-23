@@ -5,10 +5,15 @@ import {
 import displayDate from './modules/time.js';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import mobileMenu from './modules/mobileMenu.js';
 
 initStorage();
-form.addEventListener('submit', getAddedBook);
+form.addEventListener('submit', () => {
+  getAddedBook();
+  updateView(listTag.id);
+});
 listTag.addEventListener('click', () => { updateView(listTag.id); });
 newTag.addEventListener('click', () => { updateView(newTag.id); });
 contactTag.addEventListener('click', () => { updateView(contactTag.id); });
 setInterval(displayDate, 1000);
+mobileMenu();

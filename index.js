@@ -1,8 +1,8 @@
-import { initStorage, getAddedBook, form } from './modules/displayBooks.js';
+import { initStorage, getAddedBook, form } from './src/modules/displayBooks.js';
 import {
   updateView, listTag, newTag, contactTag,
-} from './modules/navigations.js';
-import displayDate from './modules/time.js';
+} from './src/modules/navigations.js';
+import displayDate from './src/modules/time.js';
 import './src/styles.css';
 
 initStorage();

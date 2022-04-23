@@ -1,7 +1,11 @@
 # Awesome-Books
-<img src="./src/images/collection1.png" alt="Book List">
-<img src="./src/images/Add2.png" alt="Book Form">
-<img src="./src/images/contact3.png" alt="Contact">
+Personal library which allow user to add name of the book and at the same time with the name of the author. User is able to Add new book and Delete book. This app allows user to store all changes in Local storage so user can be able to see his/her stored data anytime.
+
+
+<div>
+<img width="48%" src="./images/screenShoot.png">
+<img width="48%" src="./images/screenShoot1.png">
+</div>
 
 ## Built With
 
@@ -9,6 +13,9 @@
 - CSS
 - JavaScript
 - Webpack
+
+## Live Demo
+Visit live demo [here](https://awesome-books-202.netlify.app/)
 
 ## Getting Started
 
