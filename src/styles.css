@@ -11,6 +11,10 @@ nav a:hover {
   color: #17cff0;
 }
 
+#logo {
+  cursor: pointer;
+}
+
 #booksSection {
   background-image: url(./images/m1.png);
   background-repeat: no-repeat;
