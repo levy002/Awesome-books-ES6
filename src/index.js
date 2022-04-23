@@ -15,5 +15,6 @@ form.addEventListener('submit', () => {
 listTag.addEventListener('click', () => { updateView(listTag.id); });
 newTag.addEventListener('click', () => { updateView(newTag.id); });
 contactTag.addEventListener('click', () => { updateView(contactTag.id); });
+document.getElementById('logo').addEventListener('click', () => { updateView(listTag.id); });
 setInterval(displayDate, 1000);
 mobileMenu();
