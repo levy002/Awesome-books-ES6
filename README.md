@@ -15,7 +15,7 @@ Personal library which allow user to add name of the book and at the same time w
 - Webpack
 
 ## Live Demo
-Visit live demo [here](https://awesome-books-202.netlify.app/)
+Visit live demo [here](https://awesome-book-202.netlify.app/)
 
 ## Getting Started
 
